@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script> <!-- Move the JavaScript reference here -->
+    <title>Age calculator app</title>
+  
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+<body>
+  <div class="everything">
+    <div class="aform">
+      <form action="">
+        <div class="labels">
+          <label for="dd">DAY</label>
+          <label for="mm">MONTH</label>
+          <label for="yy">YEAR</label>
+        </div>
+        <div class="inputs">
+          <input id="dd" type="number" placeholder="DD" inputmode="numeric">
+          <input id="mm" type="number" placeholder="MM" inputmode="numeric">
+          <input id="yy" type="number" placeholder="YY" inputmode="numeric">
+        </div>
+      </form>
+      <button type="button" onclick="calculate()"><img src="" alt=""></button>
+      <hr>
+    </div>
+    
+    <div class="age">
+      <h1 class="years"><span id="yyy" class="span">- -</span> years</h1>
+      <h1 class="months"><span id="mmm" class="span">- -</span> months</h1>
+      <h1 class="days"><span id="ddd" class="span">- -</span> days</h1>
+    </div>
+  </div>
+  
+
+  <footer>
+    <div class="attribution">
+      
+      Coded by <a href="#">Rayan Haddad</a>.
+    </div>
+  </footer>
+</body>
+</html>

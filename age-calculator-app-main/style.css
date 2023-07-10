@@ -1,0 +1,125 @@
+input {
+  display: inline-flex;
+  border-radius: 5px;
+  width: 75px;
+  height: 34px;
+  margin: 10px;
+  padding-left: 15px;
+  border: solid 0.1px #9999; 
+  transition: border-color 0.1s;
+  justify-content: center;
+}
+
+hr {
+  color: #F0F0F0;
+  z-index: -1;
+  margin-top: 20px;
+}
+
+button:active {
+  background-color: black;
+}
+
+input:active {
+  border-color: #864bfc;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield
+}
+
+.aform {
+  padding-left: 10px;
+}
+
+@font-face {
+  font-family: poppinsbold;
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: poppinsbolditalic;
+  src: url(assets/fonts/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: poppinsextrabold;
+  src: url(assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: poppinsextrabolditalic;
+  src: url(assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: poppinsitalic;
+  src: url(assets/fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+  font-family: poppinsreg;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+button {
+  border-radius: 50%;
+  background-image: url(assets/images/icon-arrow.svg);
+  width: 50px;
+  height: 50px;
+  float: right;
+  background-color: #864bfc;
+  transition: background-color 0.05s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.everything {
+  display: block;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  padding: 25px;
+  margin: 100px;
+  max-width: 500px; 
+  max-height: 270px;
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+   background-color: #F0F0F0;
+}
+
+.span {
+  font-family: poppinsextrabolditalic;
+  color: #864bfc;
+  margin: 0px;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: poppinsextrabolditalic;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.02px;
+  
+}
+
+.labels label {
+  font-family: poppinsbold;
+  color: #999999;
+  font-size: 10px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
